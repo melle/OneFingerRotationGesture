@@ -73,6 +73,7 @@ struct ContentView: View {
             .fill(.blue)
             .frame(width: 200, height: 200)
             .rotationEffect(.degrees(Double(rotation)))
+            .animation(nil, value: rotation)  // Disable animation for smooth gesture tracking
             .oneFingerRotation(
                 innerRadiusRatio: 0.3,  // Inner 30% is inactive
                 outerRadiusRatio: 1.0    // Full view width
@@ -127,6 +128,7 @@ struct VolumeKnob: View {
         }
         .frame(width: 200, height: 200)
         .rotationEffect(.degrees(Double(rotation)))
+        .animation(nil, value: rotation)
         .oneFingerRotation(innerRadiusRatio: 0.3) { angle in
             rotation += angle
             
@@ -218,6 +220,15 @@ The demo features a beautiful circular knob with:
 - Smooth rotation animations
 - Modern iOS design
 
+## More Examples
+
+Looking for more usage examples? Check out [EXAMPLES.md](EXAMPLES.md) for:
+- Temperature controls
+- Timer dials
+- Color picker hue wheels
+- Safe lock combinations
+- And more!
+
 ## How It's Built
 
 ### The Math
@@ -269,6 +280,8 @@ The package consists of three main components:
 - Xcode 16.0+
 
 ## Tips
+
+- **Disable SwiftUI Animation**: Always add `.animation(nil, value: rotation)` after `.rotationEffect()` to disable SwiftUI's automatic animation. This ensures smooth, responsive rotation without stuttering or lag.
 
 - **Inner Radius**: Always use an inner radius greater than 0 (recommended: 30% of the outer radius) to avoid erratic behavior when touching near the center point.
 
