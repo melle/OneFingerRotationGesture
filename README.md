@@ -295,9 +295,7 @@ The package consists of three main components:
 
 This project is available under the MIT License. See the LICENSE file for more information.
 
-## Credits
-
-Based on the original concept by Harm Mellenthin. 
+## Background
 
 Read more about the implementation details: [An one finger rotation gesture recognizer](https://blog.mellenthin.de/archives/2012/02/13/an-one-finger-rotation-gesture-recognizer/)
 
