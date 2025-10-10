@@ -293,11 +293,11 @@ The package consists of three main components:
 
 ## License
 
-This project is available under the MIT License. See the LICENSE file for more information.
+This project is available under the MIT License. See the [LICENSE.md](LICENSE.md) file for more information.
 
 ## Background
 
-Read more about the implementation details: [An one finger rotation gesture recognizer](https://blog.mellenthin.de/archives/2012/02/13/an-one-finger-rotation-gesture-recognizer/)
+Read more about the orignal idea and implementation: [An one finger rotation gesture recognizer](https://blog.mellenthin.de/archives/2012/02/13/an-one-finger-rotation-gesture-recognizer/)
 
 ## Contributing
 
