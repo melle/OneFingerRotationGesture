@@ -38,14 +38,14 @@ innerRadius ≤ distance ≤ outerRadius
 Add this package to your project using Xcode:
 
 1. File → Add Package Dependencies...
-2. Enter the repository URL: `https://github.com/melle/OneFingerRotationGestureDemo`
+2. Enter the repository URL: `https://github.com/melle/OneFingerRotationGesture`
 3. Select the version you want to use
 
 Or add it to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/melle/OneFingerRotationGestureDemo", from: "1.0.0")
+    .package(url: "https://github.com/melle/OneFingerRotationGesture", from: "1.0.0")
 ]
 ```
 
