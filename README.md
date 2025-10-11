@@ -15,6 +15,24 @@ This gesture recognizer detects circular rotation gestures, making it perfect fo
 - 🔄 **Continuous rotation detection** with delta angle callbacks
 - 📦 **Easy to integrate** via Swift Package Manager
 
+## Demo App
+
+<p align="center">
+  <img src="DemoApp.png" alt="Demo App Screenshot" width="300">
+</p>
+
+The package includes a fully functional demo app showcasing the gesture recognizer. To run it:
+
+1. Clone this repository
+2. Open `DemoApp/DemoApp.xcodeproj` in Xcode
+3. Build and run on the iOS simulator or device
+
+The demo features a beautiful circular knob with:
+- Visual touch area indicators (red dotted circles)
+- Real-time angle display
+- Smooth rotation performance
+- Modern iOS design
+
 ## How It Works
 
 The gesture recognizer tracks finger movements within a defined annular region (ring-shaped area) around a center point. As the user drags their finger in a circular motion, the recognizer:
@@ -205,20 +223,6 @@ class ViewController: UIViewController {
     }
 }
 ```
-
-## Demo App
-
-The package includes a fully functional demo app showcasing the gesture recognizer. To run it:
-
-1. Clone this repository
-2. Open `DemoApp/DemoApp.xcodeproj` in Xcode
-3. Build and run on the iOS simulator or device
-
-The demo features a beautiful circular knob with:
-- Visual touch area indicators
-- Real-time angle display
-- Smooth rotation animations
-- Modern iOS design
 
 ## More Examples
 
